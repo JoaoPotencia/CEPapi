@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Alunos</title>
+    <script src="consulta_viacep.js" type="module" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -53,12 +54,25 @@
             </div>     
         </div>
         <div class="row">
+            <div class="inputbox">
+                <input type="text" id="ddd" required>
+                <label for="ddd">DDD</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="ibge" required>
+                <label for="ibge">IBGE</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="siafi" required>
+                <label for="siafi">SIAFI</label>
+            </div>     
+        </div>
+        <div class="row">
             <button>SALVAR</button>
         </div>
     </main>
     <footer>
         João Vitor Santos Raimondi &#169 2023
     </footer>
-    <script src="consulta_viacep.js"></script>
 </body>
 </html>
